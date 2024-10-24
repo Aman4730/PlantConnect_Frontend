@@ -1,0 +1,43 @@
+/* EnterOTPForm.css */
+
+.otp-container {
+  text-align: center;
+  width: 100%; /* Make width responsive */
+  max-width: 300px; /* Set a max width */
+  margin: 0 auto; /* Center the container */
+}
+
+.otp-input {
+  display: flex;
+  justify-content: center; /* Center the inputs horizontally */
+  margin: 20px 0;
+}
+
+.otp-input input {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  margin: 0 5px; /* Space between inputs */
+  transition: border-color 0.3s;
+}
+
+.otp-input input:focus {
+  border-color: #0c6845; /* Change border color on focus */
+}
+
+.timer {
+  font-size: 14px;
+}
+
+.verify-btn:hover {
+  background-color: #085e3a;
+}
+
+button[disabled] {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
